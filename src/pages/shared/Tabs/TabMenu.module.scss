@@ -1,0 +1,27 @@
+.tab {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin: 80px 0;
+}
+
+.item {
+  width: 204px;
+  height: 69px;
+  line-height: 69px;
+  border-bottom: 2px solid var(--color-gray);
+  position: relative;
+
+  &.active {
+    border-bottom: none;
+    ::after {
+      content: '';
+      display: block;
+      background-color: var(--color-darkGreen);
+      height: 4px;
+      width: 100%;
+      position: absolute;
+      bottom: -2px;
+    }
+  }
+}
