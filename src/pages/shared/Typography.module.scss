@@ -40,30 +40,44 @@
   letter-spacing: -1%;
 }
 
+.Body1 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.Body2 {
+  font-style: Bold;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0%;
+}
+
 .headline {
-  color: #000;
+  color: var(--text-headline);
 }
 
 .paragraph {
-  color: #6f6f6f;
+  color: var(--text-paragraph);
 }
 
 .captions {
-  color: #485c11;
+  color: var(--text-captions);
 }
 
 .link {
-  color: #000;
+  color: var(--text-link);
 }
 
 .white {
-  color: #fff;
+  color: var(--text-lightText);
 }
 
 .gray {
-  color: #929292;
+  color: var(--color-gray);
 }
 
 .darkgreen {
-  color: #485c11;
+  color: var(--color-darkGreen);
 }

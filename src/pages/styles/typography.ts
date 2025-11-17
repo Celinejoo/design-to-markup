@@ -4,4 +4,6 @@ export type TypographyType =
   | 'Heading3'
   | 'Paragraph'
   | 'Link'
-  | 'Captions';
+  | 'Captions'
+  | 'Body1'
+  | 'Body2';

@@ -1,8 +1,9 @@
 @use './reset.scss';
 @use './font.scss';
+@use './variables.scss';
 
 body {
-  background: #fff;
+  background: var(--color-lightBackground);
   font-family: 'Pretendard';
   font-size: 16px;
 }
