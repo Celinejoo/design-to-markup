@@ -3,13 +3,13 @@ import React, { JSX } from 'react';
 
 import { TypographyType } from './../styles/typography';
 
-import { Colors } from '../styles/color';
+import { ColorToken } from '../styles/color';
 import styles from './Typography.module.scss';
 const cx = classNames.bind(styles);
 
 interface TypographyProps {
   type: TypographyType;
-  color: Colors;
+  color: ColorToken;
   children?: React.ReactNode;
   className?: string;
   as?: keyof JSX.IntrinsicElements;

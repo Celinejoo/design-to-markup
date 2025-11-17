@@ -1,1 +1,7 @@
-export type TypographyType = 'HeadingL' | 'HeadingM' | 'Link' | 'Paragraph' | 'body' | 'caption';
+export type TypographyType =
+  | 'Heading1'
+  | 'Heading2'
+  | 'Heading3'
+  | 'Paragraph'
+  | 'Link'
+  | 'Captions';

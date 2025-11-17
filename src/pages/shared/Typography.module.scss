@@ -37,7 +37,19 @@
   font-size: 10px;
 }
 
-.black {
+.headline {
+  color: #000;
+}
+
+.paragraph {
+  color: #6f6f6f;
+}
+
+.captions {
+  color: #485c11;
+}
+
+.link {
   color: #000;
 }
 
@@ -45,20 +57,8 @@
   color: #fff;
 }
 
-.lightGreen {
-  color: #dfecc6;
-}
-
-.textParagraph {
-  color: #6f6f6f;
-}
-
 .gray {
   color: #929292;
-}
-
-.textCaption {
-  color: #485c11;
 }
 
 .darkgreen {
