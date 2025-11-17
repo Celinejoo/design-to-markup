@@ -1,15 +1,22 @@
-.HeadingL {
+.Heading1 {
   font-size: 48px;
   font-weight: 700;
   line-height: 0.9;
   letter-spacing: -0.3px;
 }
 
-.HeadingM {
+.Heading2 {
   font-size: 22px;
   font-weight: 700;
   line-height: 105%;
   letter-spacing: -4%;
+}
+
+.Heading3 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: -3%;
 }
 
 .Link {
@@ -26,15 +33,11 @@
   letter-spacing: -0.5%;
 }
 
-.Body {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0%;
-}
-
-.Caption {
-  font-size: 10px;
+.Captions {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: -1%;
 }
 
 .headline {
