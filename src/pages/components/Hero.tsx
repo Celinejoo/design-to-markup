@@ -1,7 +1,7 @@
 import classNames from 'classnames/bind';
-import Button from '../shared/Button';
+import Section from '../shared/Section';
 import Tag from '../shared/Tag';
-import Typography from '../shared/Typography';
+import Title from '../shared/Title';
 import styles from './hero.module.scss';
 
 const cx = classNames.bind(styles);
@@ -9,13 +9,14 @@ const cx = classNames.bind(styles);
 const Hero = () => {
   console.log('styles:', styles);
   return (
-    <div className={cx('hero')}>
-      <Typography type='Heading1' color='headline' as='h2'>
-        히어로 섹션 commit test
-      </Typography>
-      <Tag label='text' variant='green' />
-      <Button size='medium' varient='grey' label='버튼입니다.' disabled />
-    </div>
+    <Section>
+      <Tag label='Syntekabio' variant='green' className={cx('tag')} />
+      <Title
+        title='이 페이지는 테스트 중입니다'
+        subtitle='면접 과제용으로 제작된 샘플 페이지입니다.'
+      />
+      <div className={cx('heroBackground')}></div>
+    </Section>
   );
 };
 

@@ -7,10 +7,11 @@ const cx = classNames.bind(styels);
 interface TagProps {
   label: string;
   variant: 'green' | string;
+  className?: string;
 }
-function Tag({ label, variant = 'green' }: TagProps) {
+function Tag({ label, variant = 'green', className }: TagProps) {
   return (
-    <div className={cx('tag', variant)}>
+    <div className={cx('tag', variant, className)}>
       <Typography type='Link' color='link'>
         {label}
       </Typography>
