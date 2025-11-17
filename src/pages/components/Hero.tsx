@@ -7,7 +7,7 @@ const Hero = () => {
   console.log('styles:', styles);
   return (
     <div className={cx('hero')}>
-      <p>히어로 섹션</p>
+      <p>히어로 섹션 commit test</p>
     </div>
   );
 };
