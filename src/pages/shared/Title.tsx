@@ -7,16 +7,22 @@ const cx = classNames.bind(styles);
 interface TitleProps {
   title: string;
   subtitle?: string;
+  isColor?: boolean;
 }
 
-function Title({ title, subtitle }: TitleProps) {
+function Title({ title, subtitle, isColor }: TitleProps) {
   return (
     <div className={cx('titleWrap')}>
-      <Typography type='Heading1' color='black' as='h1'>
+      <Typography type='Heading1' color={isColor ? 'captions' : 'headline'} as='h1'>
         {title}
       </Typography>
       {subtitle && (
-        <Typography type='Paragraph' color='paragraph' as='p' className={cx('subtitle')}>
+        <Typography
+          type='Paragraph'
+          color={isColor ? 'captions' : 'paragraph'}
+          as='p'
+          className={cx('subtitle')}
+        >
           {subtitle}
         </Typography>
       )}

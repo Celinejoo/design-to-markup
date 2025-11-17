@@ -1,0 +1,32 @@
+.lightgreen {
+  background-color: var(--color-lightGreen);
+  padding: 130px 0;
+}
+.swiper {
+  margin-top: 80px;
+  margin-left: 240px;
+  margin-right: 16px;
+
+  :global(.swiper-slide) {
+    height: auto !important;
+  }
+
+  :global(.swiper-pagination) {
+    margin-top: 40px;
+    display: flex;
+    gap: 12.5px;
+    justify-content: center;
+  }
+
+  :global(.swiper-pagination-bullet) {
+    width: 10px;
+    height: 10px;
+    border: 1px solid;
+    border-radius: 100%;
+    border-color: var(--color-darkGreen);
+  }
+
+  :global(.swiper-pagination-bullet-active) {
+    background-color: var(--color-darkGreen);
+  }
+}
