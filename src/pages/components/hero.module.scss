@@ -25,3 +25,10 @@
     );
   }
 }
+
+@media screen and (max-width: 960px) {
+  .heroBackground {
+    width: 100%;
+    height: 644px;
+  }
+}

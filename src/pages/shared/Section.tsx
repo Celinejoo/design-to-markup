@@ -10,7 +10,11 @@ interface SectionProps {
 }
 
 function Section({ children, className }: SectionProps) {
-  return <section className={cx(['container', className])}>{children}</section>;
+  return (
+    <section className={cx(['container', className])}>
+      <div className={cx('inner')}> {children}</div>
+    </section>
+  );
 }
 
 export default Section;
