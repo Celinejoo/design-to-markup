@@ -1,3 +1,4 @@
+import '@/assets/globals.scss';
 import type { AppProps } from 'next/app';
 
 type AppPropsWithExtra = AppProps & {
