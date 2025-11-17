@@ -5680,6 +5680,7 @@ __metadata:
     prettier-plugin-organize-imports: "npm:^4.1.0"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
+    react-intersection-observer: "npm:^10.0.0"
     sass: "npm:^1.94.0"
     sass-loader: "npm:^14.1.1"
     storybook: "npm:^9.1.6"
@@ -10286,6 +10287,19 @@ __metadata:
   peerDependencies:
     react: ^19.1.0
   checksum: 10/c5b58605862c7b0bb044416b01c73647bb8e89717fb5d7a2c279b11815fb7b49b619fe685c404e59f55eb52c66831236cc565c25ee1c2d042739f4a2cc538aa2
+  languageName: node
+  linkType: hard
+
+"react-intersection-observer@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "react-intersection-observer@npm:10.0.0"
+  peerDependencies:
+    react: ^17.0.0 || ^18.0.0 || ^19.0.0
+    react-dom: ^17.0.0 || ^18.0.0 || ^19.0.0
+  peerDependenciesMeta:
+    react-dom:
+      optional: true
+  checksum: 10/2a2324e6d61dddeead08dabe0d300a16418a4600ece0508211babc63aeaa1f0ad62afd00b80e110cbeed4f832fa924c9492add6ffe038616254652ecf06b4203
   languageName: node
   linkType: hard
 
