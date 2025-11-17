@@ -13,17 +13,21 @@ type TabMenuProps = {
 export default function TabMenu({ activeTab, setActiveTab, tabs }: TabMenuProps) {
   return (
     <ul className={cx('tab')}>
-      {tabs.map((tab) => (
-        <li
-          key={tab}
-          className={cx('item', { active: activeTab === tab })}
-          onClick={() => setActiveTab(tab)}
-        >
-          <Typography type='Heading2' color='darkGreen'>
-            {tab}
-          </Typography>
-        </li>
-      ))}
+      {tabs.map((tab) => {
+        const isActive = activeTab === tab;
+
+        return (
+          <li
+            key={tab}
+            className={cx('item', { active: isActive })}
+            onClick={() => setActiveTab(tab)}
+          >
+            <Typography type='Heading2' color={isActive ? 'darkGreen' : 'gray'}>
+              {tab}
+            </Typography>
+          </li>
+        );
+      })}
     </ul>
   );
 }
