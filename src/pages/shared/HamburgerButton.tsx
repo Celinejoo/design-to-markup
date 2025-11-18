@@ -24,7 +24,7 @@ function HamburgerButton({ setIsMenuOpen, isMenuOpen }: HamburgerButtonProps) {
       aria-label={ariaLabel}
       aria-expanded={isMenuOpen}
     >
-      <Image src={iconSrc} width={24} height={24} alt={altText} priority />
+      <Image src={iconSrc} width={24} height={24} alt={altText} />
     </button>
   );
 }

@@ -31,6 +31,7 @@ function Button({
       className={cx('button', size, varient, className, full && 'full')}
       onClick={onClick}
       disabled={disabled}
+      type='button'
     >
       {icon && icon}
       <Typography type='Body1' color='white'>

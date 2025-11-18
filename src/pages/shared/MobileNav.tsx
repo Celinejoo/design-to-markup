@@ -21,14 +21,10 @@ function MobileNav({ isMenuOpen }: { isMenuOpen: boolean }) {
     };
   }, [isMenuOpen]);
 
-  // const handleLinkClick = () => {
-  //   setIsMenuOpen(false);
-  // };
-
   return (
-    <aside className={cx('mobile-menu', isMenuOpen && 'open')}>
+    <aside className={cx('mobile-menu', isMenuOpen && 'open')} aria-expanded={isMenuOpen}>
       <nav className={cx('mobile-nav')}>
-        <ul>
+        <ul role='menubar'>
           <li>
             <Link href='/1'>
               <Typography type='Heading2' color='link'>

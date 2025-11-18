@@ -10,7 +10,11 @@ type TabContentProps = {
 };
 
 function TabContent({ activeTab, contents }: TabContentProps) {
-  return <div className={cx('tabContent')}>{contents[activeTab]}</div>;
+  return (
+    <div className={cx('tabContent')} aria-labelledby={activeTab}>
+      {contents[activeTab]}
+    </div>
+  );
 }
 
 export default TabContent;

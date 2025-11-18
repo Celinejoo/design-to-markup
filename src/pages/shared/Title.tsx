@@ -13,7 +13,7 @@ interface TitleProps {
 function Title({ title, subtitle, isColor }: TitleProps) {
   return (
     <div className={cx('titleWrap')}>
-      <Typography type='Heading1' color={isColor ? 'captions' : 'headline'} as='h1'>
+      <Typography type='Heading1' color={isColor ? 'captions' : 'headline'} as='h3'>
         {title}
       </Typography>
       {subtitle && (

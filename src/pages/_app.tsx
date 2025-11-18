@@ -10,7 +10,11 @@ export default function App({ Component, pageProps }: AppPropsWithExtra) {
   return (
     <>
       <Head>
-        <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1' />
+        <title>신테카바이오 테스트</title>
+        <meta
+          name='viewport'
+          content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no'
+        />
       </Head>
       <Component {...pageProps} />
     </>

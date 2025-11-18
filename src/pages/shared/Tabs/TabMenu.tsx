@@ -21,6 +21,9 @@ export default function TabMenu({ activeTab, setActiveTab, tabs }: TabMenuProps)
             key={tab}
             className={cx('item', { active: isActive })}
             onClick={() => setActiveTab(tab)}
+            role='tab'
+            aria-selected={isActive}
+            aria-controls={tab}
           >
             <Typography type='Heading2' color={isActive ? 'darkGreen' : 'gray'}>
               {tab}

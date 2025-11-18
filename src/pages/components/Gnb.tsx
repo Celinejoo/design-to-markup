@@ -14,6 +14,7 @@ function Gnb() {
 
   return (
     <header className={cx('header', !isMenuOpen && 'border')}>
+      <h1 className={cx('blind')}>신케카바이오 테스트 페이지</h1>
       <nav className={cx('nav')}>
         <div className={cx('inner')}>
           <h2 className={cx('logo')}>
