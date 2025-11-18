@@ -1,11 +1,10 @@
 .lightgreen {
   background-color: var(--color-lightGreen);
   padding: 130px 0;
+  box-sizing: border-box;
 }
 .swiper {
-  margin-top: 80px;
-  margin-left: 240px;
-  margin-right: 16px;
+  margin: 80px 240px 0;
 
   :global(.swiper-slide) {
     height: auto !important;

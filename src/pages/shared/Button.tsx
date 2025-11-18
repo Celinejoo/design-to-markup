@@ -11,6 +11,8 @@ interface ButtonProps {
   label: string;
   icon?: React.ReactNode;
   disabled?: boolean;
+  className?: string;
+  full?: boolean;
   onClick?: () => void;
 }
 
@@ -20,10 +22,16 @@ function Button({
   label,
   icon,
   disabled,
+  className,
+  full,
   onClick,
 }: ButtonProps) {
   return (
-    <button className={cx('button', size, varient)} onClick={onClick} disabled={disabled}>
+    <button
+      className={cx('button', size, varient, className, full && 'full')}
+      onClick={onClick}
+      disabled={disabled}
+    >
       {icon && icon}
       <Typography type='Body1' color='white'>
         {label}
