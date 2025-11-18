@@ -4,13 +4,9 @@
 }
 
 .heroBackground {
-  width: 907px;
-  height: 644px;
   display: block;
   margin: 100px auto 0;
-  background-image: url('/images/Ipad.png');
-  background-size: cover;
-  background-position: center;
+  position: relative;
 
   &::after {
     content: '';
@@ -23,14 +19,20 @@
       rgba(255, 255, 255, 0.5) 55.93%,
       #ffffff 77.25%
     );
+    position: absolute;
+    bottom: 0px;
   }
 }
 
 @media screen and (max-width: 960px) {
   .heroBackground {
     margin-top: 40px;
-    background-image: url('/images/Iphone.png');
-    width: 270px;
-    height: 520px;
+  }
+
+  .hero-image {
+    width: 270px !important;
+    height: 520px !important;
+    display: block;
+    margin: 0 auto;
   }
 }

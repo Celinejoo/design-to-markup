@@ -1,6 +1,5 @@
 import type { Preview } from '@storybook/react-webpack5';
 
-// import '../src/assets/globals.scss';
 import '../src/assets/reset.scss';
 import '../src/assets/variables.scss';
 
