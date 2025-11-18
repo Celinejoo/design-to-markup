@@ -44,13 +44,19 @@ function ImageSlider() {
 
       <Swiper
         spaceBetween={16}
-        slidesPerView={2.5}
+        slidesPerView={1.5}
         pagination={{
           clickable: true,
         }}
         modules={[Pagination]}
         className={cx('swiper')}
         grabCursor={true}
+        breakpoints={{
+          960: {
+            slidesPerView: 2.5,
+            spaceBetween: 16,
+          },
+        }}
       >
         {cardItems.map((item, idx) => (
           <SwiperSlide key={idx}>

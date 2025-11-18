@@ -79,3 +79,38 @@
 .darkgreen {
   color: var(--color-darkGreen);
 }
+
+@media screen and (max-width: 960px) {
+  .Heading1 {
+    font-size: 28px;
+    line-height: 0.95;
+    letter-spacing: -0.84px;
+  }
+
+  .Heading2 {
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: -0.6px;
+  }
+
+  .Heading3 {
+    font-size: 14px;
+    letter-spacing: -0.42px;
+  }
+
+  .Link {
+    font-size: 12px;
+    letter-spacing: -0.3px;
+  }
+
+  .Paragraph {
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: -0.7px;
+  }
+
+  .Captions {
+    font-size: 10px;
+    letter-spacing: -0.3px;
+  }
+}

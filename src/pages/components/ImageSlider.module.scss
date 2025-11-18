@@ -29,3 +29,9 @@
     background-color: var(--color-darkGreen);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .swiper {
+    margin: 40px 40px 80px 40px;
+  }
+}
