@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 import TabContent from './Tabs/TabContent';
 import TabMenu from './Tabs/TabMenu';
+
 const TABS = ['탭 영역 1', '탭 영역 2', '탭 영역 3'];
 
 export default function TabsContainer() {

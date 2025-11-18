@@ -23,14 +23,18 @@ function DesktopNav() {
         </Link>
       </li>
       <li>
-        <Typography type='Link' color='link'>
-          서비스메뉴 3
-        </Typography>
+        <Link href='/3'>
+          <Typography type='Link' color='link'>
+            서비스메뉴 3
+          </Typography>
+        </Link>
       </li>
       <li>
-        <Typography type='Link' color='link'>
-          서비스메뉴 4
-        </Typography>
+        <Link href='/4'>
+          <Typography type='Link' color='link'>
+            서비스메뉴 4
+          </Typography>
+        </Link>
       </li>
     </ul>
   );

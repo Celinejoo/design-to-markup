@@ -2,7 +2,7 @@ import classNames from 'classnames/bind';
 import Section from '../shared/Section';
 import Tag from '../shared/Tag';
 import Title from '../shared/Title';
-import styles from './hero.module.scss';
+import styles from './Hero.module.scss';
 
 const cx = classNames.bind(styles);
 

@@ -2958,6 +2958,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@storybook/addon-actions@npm:^9.0.8":
+  version: 9.0.8
+  resolution: "@storybook/addon-actions@npm:9.0.8"
+  checksum: 10/3c5ad1ea7cfe80064aa55ff332c6f2849269520a84ce28b0ca36263ac45710ed9a0983d6f244d562425bc8d8d33400715f61f10303b5fd5e6a6b8183066deb0d
+  languageName: node
+  linkType: hard
+
 "@storybook/addon-designs@npm:^10.0.2":
   version: 10.0.2
   resolution: "@storybook/addon-designs@npm:10.0.2"
@@ -5649,6 +5656,7 @@ __metadata:
   resolution: "design-to-markup@workspace:."
   dependencies:
     "@chromatic-com/storybook": "npm:^4.1.1"
+    "@storybook/addon-actions": "npm:^9.0.8"
     "@storybook/addon-designs": "npm:^10.0.2"
     "@storybook/addon-docs": "npm:^9.1.6"
     "@storybook/addon-links": "npm:^9.1.6"

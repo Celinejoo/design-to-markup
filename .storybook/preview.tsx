@@ -1,7 +1,10 @@
 import type { Preview } from '@storybook/react-webpack5';
 
-export const decorators = [
-];
+// import '../src/assets/globals.scss';
+import '../src/assets/reset.scss';
+import '../src/assets/variables.scss';
+
+export const decorators = [];
 
 const preview: Preview = {
   parameters: {
