@@ -9,11 +9,15 @@ import MobileNav from '../shared/MobileNav';
 import styles from './Gnb.module.scss';
 const cx = classNames.bind(styles);
 
-function Gnb() {
+interface Props {
+  isScrolled: boolean;
+}
+
+function Gnb({ isScrolled }: Props) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className={cx('header', !isMenuOpen && 'border')}>
+    <header className={cx('header', !isMenuOpen && 'border', isScrolled && 'scroll')}>
       <h1 className={cx('blind')}>신케카바이오 테스트 페이지</h1>
       <nav className={cx('nav')}>
         <div className={cx('inner')}>
