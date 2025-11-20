@@ -35,7 +35,7 @@ function ImageSlider() {
   ];
 
   return (
-    <Section className={cx('lightgreen')}>
+    <Section className={cx('lightgreen')} inner>
       <Title
         isColor
         title='이 페이지는 테스트 중입니다'

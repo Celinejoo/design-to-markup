@@ -8,7 +8,7 @@ const cx = classNames.bind(styles);
 
 const Hero = () => {
   return (
-    <Section>
+    <Section inner>
       <Tag label='Syntekabio' variant='green' className={cx('tag')} />
       <Title
         title='이 페이지는 테스트 중입니다'
